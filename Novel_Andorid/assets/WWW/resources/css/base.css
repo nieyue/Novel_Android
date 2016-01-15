@@ -1,0 +1,206 @@
+/**
+**a标签
+*/
+a{
+	cursor: pointer;
+}
+/**
+**ui-content内容
+*/
+.ui-content{
+	background-color:#e0eee8;
+	
+}
+/**
+**foot
+*/
+.foot{
+	background-color:#e0eee8 !important;
+	color:#999 !important;
+}
+.foot div{
+	text-align:center;
+	margin:20px;;
+	font-size:14px;
+	
+}
+.foot .foot_copy{
+	font-size:12px;
+}
+/**
+**logodiv主题图片
+*/
+.logodiv{
+	height:66px;
+}
+.logodiv .logo{
+	text-align:right;
+}
+.logodiv .logo img{
+	width:66px;
+	height:66px;
+	border:0px solid white;
+	border-radius:33px;
+}
+.logodiv .logotext{
+	height:66px;
+	color:green;
+	font-weight:bold;
+}
+.logodiv .logotext .logotext66{
+	line-height:40px;
+	font-size:30px;
+	padding-left:12px;
+}
+.logodiv .logotext .logotextsite{
+	line-height:20px;
+	font-size:20px;
+	padding-left:6px;
+}
+
+/**
+**ui-btn-active按钮背景
+*/
+.ui-btn-active{
+	background-color:green !important;
+	
+}
+/**
+**submit btn登录按钮
+*/
+.ui-btn .submitbtn{
+	background-color:yellow !important;
+}
+.ui-btn-inline{
+	display:block !important;
+	
+}
+#hotsearchterms a{
+	display: inline-block;
+}
+
+
+/**
+**whiteLine白线
+*/
+.whiteLine{
+	width:100%;
+	margin:20px 0px;
+	height:1px;
+	background-color:#ccccc;
+}
+/**
+**QQ
+*/
+ div.QQIMG{
+	width:40px;
+	height:50px; 
+	margin:-60px 0;
+	position: absolute;
+} 
+@media(max-width:968px){
+	div.QQIMG{
+	width:40px;
+	height:50px; 
+	margin:-60px 40%;
+	position: absolute;
+} 
+}
+@media(max-width:768px){
+	div.QQIMG{
+	width:40px;
+	height:50px; 
+	margin:-60px 30%;
+	position: absolute;
+} 
+}
+@media(max-width:400px){
+	div.QQIMG{
+	width:40px;
+	height:50px; 
+	margin:-60px 25%;
+	position: absolute;
+} 
+}
+@media(min-width:968px){
+	div.QQIMG{
+	width:40px;
+	height:50px; 
+	margin:-60px 42%;
+	position: absolute;
+} 
+}
+/**
+**排行展示栏
+*/
+.bulletin{
+	width:95%;
+	margin:10px auto;
+	background-color:white;
+	opacity:0.5;
+	border:1px solid #ccc;
+	height:auto;
+}
+.bulletin div{
+	border-bottom: 1px solid #ccc; 
+	padding:15px;
+	font-size:20px; 
+	color:green;
+	}
+.bulletinTop{
+ border-bottom:1px solid #ccc;
+	}
+.bulletinTop a{
+display: inline-block;
+width:40%;
+text-align: center;
+	}
+
+.bulletin  div span{
+	font-weight: bold;
+	color:red;
+	}
+.bulletin  div a{
+	margin-left:15px;
+	font-weight: bold;
+	color:black;
+	}
+	
+.bulletin .bulletinFoot{
+	text-align:center;
+	}
+.bulletin .bulletinFoot a{
+	font-weight:normal;
+	color:#999;
+	cursor:pointer;
+	}
+/**
+**排行展示栏
+*/
+.show{
+	display: block;
+}	
+.hide{
+	display: none;
+}
+/**
+**分类
+*/
+.classification{
+	opacity:0.6;
+	margin:10px;
+}
+
+
+.classification ul li a{
+	font-weight:bold;
+	font-size:14px !important;
+	
+}
+/*
+**Recommend推荐div
+**
+*/
+.Recommend ul li a:hover{
+  white-space: normal;
+}
